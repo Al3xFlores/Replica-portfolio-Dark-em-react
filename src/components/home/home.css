@@ -1,0 +1,54 @@
+.home--content {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ }
+ 
+ 
+ .home--info h2 {
+ font-size: 70px;
+ font-family: roboto;
+ color: #ffffff;
+ }
+ 
+ .home--info h4 {
+ font-size: 23px;
+ font-family: roboto;
+ color: #cccccc;
+ font-weight: 400;
+ }
+ 
+ .image img {
+  max-width: 500px;
+ }
+ 
+ .button {
+  margin-top: 60px;
+ }
+ 
+ .button button {
+ width: 220px;
+ height: 60px;
+ border-radius: 5px;
+ background-color: #feb633;
+ }
+ 
+ .button button:hover {
+ background-color: rgba(0, 0, 0, 0);
+ border: 2px solid #feb633;
+ 
+ }
+ 
+ .button a:hover {
+ color: #feb633;
+ }
+ 
+ 
+ .button a {
+ font-size: 20px;
+ font-family: roboto, sans-serif;
+ color: #fff;
+ font-weight: 600;
+ padding: 10px
+ 
+ }
