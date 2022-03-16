@@ -1,9 +1,18 @@
+header {
+ position: fixed;
+ width: 100%;
+
+}
+
+.ativaCor {
+ background-color: #252525;
+}
+
 .nav {
  display: flex;
  justify-content: space-between;
  align-items: center;
- padding: 25px;
- margin-bottom: 100px;
+ padding: 20px 0px;
 }
 
 .nav--right ul{

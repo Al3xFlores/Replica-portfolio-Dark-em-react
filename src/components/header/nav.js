@@ -2,10 +2,12 @@ import React from 'react'
 import './nav.css'
 import logo from '../../assets/imgs/logo.png'
 
-export default function nav() {
+export default function nav({acao}) {
+
+  
+
   return (
-    <header>
-      <div class="container">
+    <header className={ acao ? 'ativaCor' : '' }>
       <nav className="nav">
       <div className="logo">
         <img src={logo}/>
@@ -20,7 +22,6 @@ export default function nav() {
       </ul>
      </div>
     </nav>
-    </div>
     </header>
   )
 }

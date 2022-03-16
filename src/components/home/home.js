@@ -6,7 +6,7 @@ export default function home() {
   return (
    <section class="home">
    <div class="container">
-     <div class="row">
+    
        <div class="home--content">
          <div class="home--info">
            <h2>I’m Michael</h2>
@@ -22,7 +22,7 @@ export default function home() {
           </div>
        </div>
      </div>
-   </div>
+   
 </section>
   )
 }
