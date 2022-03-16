@@ -30,3 +30,24 @@ body {
 .container {
  margin: 0px 4rem;
 }
+
+@media (max-width: 990px) {
+  .container{
+    margin: 0px 7rem;
+  }
+ }
+
+ @media (max-width: 640px) {
+  .container{
+    margin: 0px 1rem;
+  }
+ }
+
+ @media (max-width: 770px) {
+  .container {
+    margin: 20px;
+  }
+ }
+
+
+

@@ -52,3 +52,37 @@
  padding: 10px
  
  }
+
+ @media (max-width: 990px) {
+  .home--info h2{
+   font-size: 45px;
+  }
+
+  .image img {
+   max-width: 400px;
+  }
+  
+
+
+ }
+
+ @media (max-width: 770px) {
+  .home--info h4 {
+   font-size: 24px;
+  }
+  .home--content {
+   flex-wrap: wrap;
+   justify-content: space-around;
+  }
+
+  .image {
+  align-items: center;
+  justify-content: center;
+  }
+
+  .image img {
+   max-width: 500px;
+   padding-top: 60px;
+  }
+
+ }
