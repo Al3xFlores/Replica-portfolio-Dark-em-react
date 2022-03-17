@@ -5,6 +5,7 @@ import Nav from './components/header/nav';
 import Home from './components/home/home'
 import About from './components/about/about'
 
+
 function App() {
 
   const [ativaCor, setAtivaCor] = useState(false)
@@ -18,7 +19,7 @@ function App() {
       }
     }
     window.addEventListener('scroll', posicaoSroll)
-  }, [])
+  })
 
   return (
     <>
