@@ -64,9 +64,43 @@
 
 
 @media (max-width: 990px) {
-  
+ .about--content {
+  flex-wrap: wrap;
+ }
+ .about--title {
+  display: flex;
+  width: 500px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .about {
+  padding-top: 60px;
+ }
+
+ 
 }
 
 @media (max-width: 720px) {
+
+ .about--content {
+  flex-wrap: wrap;
+ }
+ .about--title {
+  display: flex;
+  width: 500px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .about {
+  padding-top: 60px;
+ }
+
+ .about--info{
+  width: 100%
+ }
 
 }

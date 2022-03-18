@@ -14,9 +14,9 @@ export default function nav({acao}) {
       <div className="logo">
         <img src={logo}/>
       </div>
-     <div className="nav--right">
+     <nav className="nav--right">
        <NavLinks />
-     </div>
+     </nav>
     </nav>
     </div>
     </header>
